@@ -1,0 +1,65 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    width: 80%;
+}
+
+header {
+    display: flex;
+}
+
+.container-text, .button {
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button button, input:last-child {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.button button:hover a, input:last-child:hover {
+    text-decoration: underline;
+}
+
+section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-texto {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+input:last-child {
+    font-size: 20px;
+    letter-spacing: .5px;
+}
